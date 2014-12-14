@@ -7,6 +7,10 @@ ul {
     margin: 8px;
 }
 
+li {
+	white-space: pre;
+}
+
 input[type="submit"]{
   background: #fff;
   border: 1px solid #000;
