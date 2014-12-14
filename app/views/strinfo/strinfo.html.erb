@@ -1,0 +1,15 @@
+<div>
+	<h1>String information</h1>
+</div>
+
+<div>
+	<%= render 'form' %>
+	<% if @string %>
+		<ul>
+			<li>Input: <%= @string %></li>
+			<li>Length: <%= @length %></li>
+			<li>Words: <%= @words %></li>
+			<li>Reverse: <%= @reverse %></li>
+		</ul>
+	<% end %>
+</div>
